@@ -1,0 +1,43 @@
+.register-card-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  height: 60vh;
+  width: 30vw;
+  min-width: 400px;
+  color: white;
+}
+
+.form-card {
+  margin: 1rem;
+  width: 70%;
+  height: 70%;
+  background-color: #fdd;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field {
+  width: 70%;
+  height: 40px;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.register-button {
+  width: 70%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: orange;
+}

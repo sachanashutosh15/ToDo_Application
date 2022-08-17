@@ -1,0 +1,68 @@
+.main--header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: lightblue;
+  height: 10vh;
+  padding-right: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.main--sidebar {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: palegreen;
+  width: 15%;
+  height: 83vh;
+  padding: 2rem;
+  position: fixed;
+  top: 10vh;
+}
+
+.logoutbtn {
+  border: none;
+  background-color: palegreen;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.main--content {
+  background-color: #eef;
+  min-height: calc(83vh - 5rem);
+  height: 100%;
+  width: calc(85% - 4rem);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  margin-left: calc(15% + 4rem);
+}
+
+.content-table > tr > th, td {
+  padding: 10px 20px;
+  border: 1px solid black;
+  width: 100px;
+  text-align: center;
+}
+
+.content-table {
+  border-collapse: collapse;
+}
+
+.action-button {
+  margin: 0 1rem;
+}
+
+.newActivity--container {
+  background-color: #eef;
+  padding: 1rem;
+  display: flex;
+  justify-content: end;
+  margin-top: 10vh;
+}
